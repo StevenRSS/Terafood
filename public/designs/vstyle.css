@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-brand:hover{
+    color:black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.main{
+    background: url(images/terabackdrop.jpeg);
+    background-size: cover;
+    /* height: 100vh; */
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.btn1{
+    height: 45px;
+    width: 21%;
+    border: none;
+    outline:none ;
+    background-color: red;
+    color:white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color: brown;
+    transition:0.5s;
+}
+
+.card:hover{
+
+
+
+}
+
+.news{
+background-color: #AC2128;
+color: white;
+
+
+} 
+
+.btn2{
+height: 45px;
+width: 100px;
+background: white;
+margin-left: -10px;
+border: 2px solid white;
+
+}
+
+.btn2:hover{
+    background-color: gray;
+    transition:0.5s;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: #AC2128;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.news::placeholder{
+    color:white;
+}
